@@ -16,6 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server -p3001 --watch db.json",
+    "nserver": "json-server server.js",
+    "nserver2": "node server.js --watch",
     "cypress:open": "cypress open",
     "test:e2e": "cypress run"
   },
